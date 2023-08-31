@@ -1,0 +1,26 @@
+
+
+public class example {
+    public static void main(String[] args) {
+        hospital();
+        shop m = new shop();//objecct created
+        m.printshop();
+
+
+
+
+
+    }
+
+    public static void hospital() {
+        System.out.println("apex");
+    }
+}
+class shop{
+    public static void printshop(){
+        System.out.println("gp market nagar");
+    }
+}
+//output 
+apex
+gp market nagar
